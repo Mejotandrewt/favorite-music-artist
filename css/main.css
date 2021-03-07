@@ -25,9 +25,20 @@ img {
   padding-left: 10px;
 }
 
+/* Destop Styles */
 
-/* Destop Styles *
+@media (min-width: 767px) {
+  .header {
+    display: flex;
+  }
 
-@media (min-width;
+  .header > * {
+    flex: 1 0;
+  }
 
-
+  .hv-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
