@@ -12,6 +12,10 @@ img {
   height: 48px;
 }
 
+/*.firstpic {
+  height: 800px;
+  width: auto;
+} */
 .nav-primary {
   padding: 8px 8px 8px 8px;
   box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.16);
@@ -35,6 +39,7 @@ img {
 @media (min-width: 767px) {
   .header {
     display: flex;
+    flex-direction: row-reverse;
   }
 
   .header > * {
@@ -81,4 +86,8 @@ img {
 
 .flex > * {
   flex: 1 0;
+}
+
+.remove-margin-top {
+  margin-top: 0%;
 }
